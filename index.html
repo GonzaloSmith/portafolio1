@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Portafolio | Gonzalo Smith</title>
+
+    <!--CSS Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Lato:400,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/f5cdbd7084.js" crossorigin="anonymous"></script>
+
+    <!--Mi estilo CSS-->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top m-auto">
+        <div class="container d-flex justify-content-end justify-md-content-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav font-weight-bold">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#startSection">Inicio<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myExperience">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myProjects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lastLink" href="#socialNetworks" tabindex="-1"
+                            aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--<Descripción sobre mi-->
+
+<section id="aboutMe" class="section1 py-1">
+        <div class="row container my-5 d-flex justify-content-center align-items-center flex-md-column flex-lg-row px-2">
+            <div class="col-md-2 col-lg-3 d-flex">
+                <img class="rounded-circle img-fluid" src="assets/img/foto.jpg" alt="Imagen de perfil">
+            </div>
+
+            <div class="col-md-10 col-lg-8 mt-md-4 py-3 text-justify pl-5 align-self-center">
+                <p class="paragraph"><h2>Bienvenidos</h2></p>
+                <p class="paragraph"><h4>Me llamo Gonzalo Smith</h4></p>
+                
+                <p class="paragraph">Soy desarrollador front-end en react con lenguajes de html5 y css3.
+                    pero además de eso tengo otros hobbies. 
+                </p>
+
+                <p class="paragraph">También el sonido, los video juegos, la fotografía y la música.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Experiencia laboral y estudios-->
+    <section id="myExperience" class="section2 p-5">
+        <div>
+            <div class="d-flex justify-content-center flex-column flex-wrap text-justify px-md-5">
+                <div class="pt-3 pb-5">
+                    <h3 class="text-center font-weight-bold pt-4 pb-5">MIS ESTUDIOS</h3>
+                    <img class="imgEstudio img-fluid pb-3" src="assets/img/desafio_latam.png" alt="Logo Desafío Latam"/>
+                    <p class="paragraph">Año 2022, Desarrollador Front-End react.</p>
+                </div>
+                
+                <div class="pb-5">
+                    <img class="imgEstudio img-fluid pb-3" src="assets/img/duoc.png" alt="Logo Laboratoria"/>
+                    <p class="paragraph">Año 2013-2015, Analista programador (congelado).</p>
+                </div>
+
+                <div class="pb-5">
+                    <img class="imgEstudio img-fluid pb-3" src="assets/img/santotomas.png" alt="Logo Laboratoria"/>
+                    <p class="paragraph">Año 2008-2010, Técnico sonido y refuerzo sonoro.</p>
+                </div>
+
+                <div class="d-flex justify-content-center py-5">
+                    <a class="btnSaberMas btn btn-dark btn-block mb-1 font-weight-bold"
+                        href="assets/img/Curriculum Vitae_gonzalosmith.pdf" target="_blank" role="button" data-toggle="tooltip"
+                        data-placement="top" title="Presiona para ver mi currículum">Currículum Vitae</a>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!--Últimos proyectos realizados-->
+    <section id="myProjects" class="section3 p-5 mb-5">
+        <h3 class="text-center font-weight-bold pt-4">Mis proyectos</h3>
+        <div class="section3_container container d-flex flex-wrap pb-4">
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/iguanaPage.png" class="card-img-top" alt="iguanaPage">
+                <div class="card-body">
+                    <h5 class="card-title">iguanaPage</h5>
+                    <p class="card-text">¿Sabías que pueden cambiar sus colores de acuerdo al lugar donde habitan? </p>
+                </div>
+                <div class="container_badges container text-center">
+                    <span class="badge badge-dark">HTML5</span>
+                    <span class="badge badge-dark">CSS3</span>
+                    <span class="badge badge-dark">Bootstrap</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://gonzalosmith.github.io/proyecto.iguanapage/" target="_blank"
+                    class="btn btn-outline-dark card-body_btn">Ver
+                    página</a>
+                    <a href="https://github.com/GonzaloSmith/proyecto.iguanapage" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/landingpage.png" class="card-img-top" alt="Imagen landingpage">
+                <div class="card-body">
+                    <h5 class="card-title">landingpage</h5>
+                    <p class="card-text">Página de búsqueda de plantas decorativas.</p>
+                </div>
+                <div class="container_badges container text-center">
+                        <span class="badge badge-dark">HTML5</span>
+                        <span class="badge badge-dark">Bootstrap</span>
+                        <span class="badge badge-dark">CSS3</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://gonzalosmith.github.io/proyecto.landingpage/" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Ver
+                        página</a>
+
+                    <a href="https://github.com/GonzaloSmith/proyecto.landingpage" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+
+            <div class="card scrollflow -pop -opacity">
+                <img src="assets/img/cuppon.png" class="card-img-top" alt="Imagen Cuppon">
+                <div class="card-body">
+                    <h5 class="card-title">Cuppon</h5>
+                    <p class="card-text">Página web de descuentos.</p>
+                </div>
+                <div class="container_badges container text-center">
+                        <span class="badge badge-dark">Bootstrap</span>
+                        <span class="badge badge-dark"> CSS3</span>
+                        <span class="badge badge-dark">Html5</span>
+                </div>
+                <div class="card-body card-body_buttons">
+                    <a href="https://gonzalosmith.github.io/proyecto-cupon/" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Ver
+                        página</a>
+                    <a href="https://github.com/GonzaloSmith/proyecto-cupon" target="_blank"
+                        class="btn btn-outline-dark card-body_btn">Repositorio</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Íconos con redes sociales-->
+    <footer id="socialNetworks" class="align-middle text-center py-5">
+        <div class="container">
+            <a class="swirl-in-fwd" href="mailto:gonzalosmithveliz@gmail.com"><i class="fas fa-envelope"
+                    data-toggle="tooltip" data-placement="top" title="bcaceres.sep87@gmail.com"></i></a>
+            <a href="https://www.instagram.com/_skypi_/" target="_blank" class="social instagram" title="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/gonzalo-smith-243393233/"
+                target="about_blank"><i class="fab fa-linkedin-in" data="target" about="_blank" data-toggle="tooltip"
+                    data-placement="top" title="Visita mi perfil en LinkedIn"></i></a>
+            <a href="https://github.com/GonzaloSmith" target="about_blank" data-toggle="tooltip" data-placement="top"
+                title="Visita mi perfil en Github"><i class="fab fa-github"></i></a>
+
+            <!--<p class="pt-2">© Gonzalo Smith | Front-End Developer</p>-->
+            <p class="autor">Gonzalo Smith - 2022</p>
+        
+        </div>
+    </footer>
+
+    <!-- JQuery sin slim, minificado -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous ">
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+    <!-- Particles -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/particles.js"></script>
+
+    <!-- Scrollflow -->
+    <script src="assets/js/eskju.jquery.scrollflow.min.js"></script>
+
+    <!-- Mis scripts -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

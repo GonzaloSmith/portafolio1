@@ -1,0 +1,210 @@
+  /* Página de inicio*/
+    
+    body {
+        font-family: 'Lato', sans-serif;
+        width: 100%;
+        background-image: url("../img/bg-8.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #ffffff;
+    }
+    
+  
+
+    /* navBar */
+
+    nav {
+        background: rgba(185, 185, 185, 0.87);
+        padding: 1em 1em;
+    }
+    
+    .nav-link{
+        color: rgb(14, 13, 13);
+        text-decoration: none;
+        padding: 0 20px;
+    } 
+
+ 
+
+    .fa-bars {
+        color:rgb(250, 250, 250);
+    }
+    
+    .row {
+        text-align: justify;
+    }
+
+   
+
+    /*Estilo secciones en general*/
+
+    section {
+        margin-top: 6.25em;
+        position: relative;
+        z-index: 99;
+        
+    }
+
+    /* section 1 (Sobre mi) */
+
+    .section1 {
+        width: 83%;
+        background: rgba(31, 51, 70, 0.678);
+        margin: 7%;
+        margin-bottom: 3rem;
+        color: #fdfdfd;
+        
+        
+        
+    }
+
+    /* section 2 (Mis estudios) */
+
+    .section2 {
+        width: 100%;
+        background: rgba(31, 51, 70, 0.678);
+        background-size:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #f8f6f6;
+        
+    }
+
+    .imgEstudio{
+        width: 9.5em;
+    }
+
+
+    /* seccion 3 (Proyectos) */
+
+    .section3 {
+        background: rgba(31, 51, 70, 0.678);
+    } 
+
+    .card{
+        margin: 40px auto;
+        box-sizing: border-box;
+    }
+
+    .card-title {
+        font-weight:700;
+        color: black;
+        text-align: center;
+    }
+
+    .card-body {
+        text-align: justify;
+    }
+
+    .card-body_buttons {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card-body_btn {
+        border-radius: 0px;
+    }
+
+    .list-group-item, .card-text {
+        color: #000000;
+    }
+
+    /* footer */
+
+    footer {
+        background-color: rgb(47, 53, 59);
+        margin-top: 100px;
+    }
+
+    /* Íconos redes sociales */
+    footer a {
+        margin-left: 15px;
+        font-size: 25px;
+        color: rgb(248, 229, 229);
+    }
+
+    .footer p {
+  background: #d1d1d1;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+    footer a:hover {
+        color: rgb(255, 60, 0);
+    }
+  
+    /*Media queries*/
+
+    @media screen and (min-width: 576px) {
+        .welcomeText {
+            padding: 3.25em 2.5em 1.25em 2.5em;
+        }
+
+        nav {
+            padding-top: 2em!important;
+            padding-bottom: 2em!important;
+        }
+
+        .start_section {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        section {
+            border-radius: 0.25em;
+        }
+       
+        .section2 {
+            width: 70vw;
+            margin: auto;
+        }  
+
+        .btnSaberMas {
+            width: 30vw;
+        }
+        
+        .section3_container {
+            padding: 3em 0!important;
+        }
+
+        .card {
+            padding: 0;
+            width: 40%;
+        }
+
+        .card-text, .container_badges {
+            padding: 0 1.5em;
+        }
+
+        footer a {
+            margin-left: 25px;
+            font-size: 40px;
+            color: rgb(248, 229, 229);
+        }
+        
+        .nav-link {
+            border-right: 1px solid rgb(248, 229, 229);
+        }
+
+        .lastLink{
+            border-right: 0;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .section2 {
+            padding: 3em 6em!important;
+        } 
+
+        .card {
+            width: 30%;
+        }
+
+        .paragraph {
+            font-size: 1.2rem;
+        }
+    }
